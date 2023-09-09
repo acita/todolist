@@ -4,8 +4,9 @@
 
 To run is necessary a MySQL instance. If you use Docker just runs in your terminal:
 
+``````
 docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql
-
+``````
 And create a database and table tasks with script:
 
 ``````
@@ -22,7 +23,7 @@ CREATE TABLE tasks(
 ``````
 
 
-## Command
+## API
 
 With a computer or container docker with nodejs/npm installed run:
 
